@@ -1,22 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a2130c8.css",
-    "main.js": "/static/js/main.2630bf3b.js",
+    "main.css": "/static/css/main.7b8bcfd6.css",
+    "main.js": "/static/js/main.d7ffc9e7.js",
     "static/js/787.88c30868.chunk.js": "/static/js/787.88c30868.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/caveat-cyrillic-wght-normal.woff2": "/static/media/caveat-cyrillic-wght-normal.66d748a0b10c0701e2c4.woff2",
+    "static/media/caveat-latin-wght-normal.woff2": "/static/media/caveat-latin-wght-normal.566819e6881dda99ca61.woff2",
     "static/media/postgres.png": "/static/media/postgres.52d31cc1fd8306d5ff52.png",
+    "static/media/caveat-cyrillic-ext-wght-normal.woff2": "/static/media/caveat-cyrillic-ext-wght-normal.e9efc4de9087058cf5d3.woff2",
+    "static/media/caveat-latin-ext-wght-normal.woff2": "/static/media/caveat-latin-ext-wght-normal.e5c9983da00212f2f17b.woff2",
+    "static/media/source-code-pro-latin-ext-wght-normal.woff2": "/static/media/source-code-pro-latin-ext-wght-normal.926d47d8a23288f10476.woff2",
+    "static/media/source-code-pro-latin-wght-normal.woff2": "/static/media/source-code-pro-latin-wght-normal.afba916b6a32bd1e0b27.woff2",
+    "static/media/source-code-pro-cyrillic-wght-normal.woff2": "/static/media/source-code-pro-cyrillic-wght-normal.73d813e592d8dc7d87bb.woff2",
     "static/media/logo.png": "/static/media/logo.d408d0b739409bc35f6f.png",
+    "static/media/source-code-pro-greek-wght-normal.woff2": "/static/media/source-code-pro-greek-wght-normal.ef09ead00f9ed966a9bd.woff2",
+    "static/media/source-code-pro-cyrillic-ext-wght-normal.woff2": "/static/media/source-code-pro-cyrillic-ext-wght-normal.edf4156528290ce54409.woff2",
+    "static/media/source-code-pro-vietnamese-wght-normal.woff2": "/static/media/source-code-pro-vietnamese-wght-normal.784b3d9a69f75d8b55b7.woff2",
+    "static/media/source-code-pro-greek-ext-wght-normal.woff2": "/static/media/source-code-pro-greek-ext-wght-normal.12f4f25e9c89ce51ed51.woff2",
     "index.html": "/index.html",
-    "main.5a2130c8.css.map": "/static/css/main.5a2130c8.css.map",
-    "main.2630bf3b.js.map": "/static/js/main.2630bf3b.js.map",
+    "main.7b8bcfd6.css.map": "/static/css/main.7b8bcfd6.css.map",
+    "main.d7ffc9e7.js.map": "/static/js/main.d7ffc9e7.js.map",
     "787.88c30868.chunk.js.map": "/static/js/787.88c30868.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a2130c8.css",
-    "static/js/main.2630bf3b.js"
+    "static/css/main.7b8bcfd6.css",
+    "static/js/main.d7ffc9e7.js"
   ]
 }
