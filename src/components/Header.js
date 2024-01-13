@@ -50,7 +50,7 @@ const Header = () => {
                 <DropdownItem>
                   <a
                     className="nav-link"
-                    href="https://github.com/Mannyvv/NoteApp_React/blob/main/src/App.js"
+                    href="https://github.com/Mannyvv/NoteApp_React_Frontend"
                   >Front-End
                   </a>
                 </DropdownItem>
