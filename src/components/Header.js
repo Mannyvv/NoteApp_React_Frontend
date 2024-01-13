@@ -9,13 +9,14 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
+  // NavLink,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
   NavbarText,
 } from 'reactstrap';
+import { NavLink } from "react-router-dom";
 import Logo from "../assets/images/logo.png"
 
 const Header = () => {
@@ -36,7 +37,7 @@ const Header = () => {
 
           <Nav className=" nav" style={{ marginLeft: "30%" }} navbar >
             <NavItem>
-              <NavLink className="nav-link" style={whiteText} href="/">
+              <NavLink className="nav-link" style={whiteText} to="/">
                 <i className="fa fa-home fa-lg" /> Home
               </NavLink>
             </NavItem>
@@ -71,14 +72,14 @@ const Header = () => {
 
               </DropdownMenu>
             </UncontrolledDropdown>
-
+ 
             <NavItem>
-              <NavLink style={whiteText} href="TechStack">
+              <NavLink style={whiteText} to="/TechStack">
                 <i className="fa fa-list fa-lg" /> Tech-Stack
               </NavLink>
             </NavItem>
           </Nav>
-        </Collapse>
+        </Collapse> 
       </Navbar>
 
 
