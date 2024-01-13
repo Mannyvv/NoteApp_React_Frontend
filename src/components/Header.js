@@ -74,7 +74,7 @@ const Header = () => {
             </UncontrolledDropdown>
  
             <NavItem>
-              <NavLink style={whiteText} to="/TechStack">
+              <NavLink className="nav-link" style={whiteText} to="/TechStack">
                 <i className="fa fa-list fa-lg" /> Tech-Stack
               </NavLink>
             </NavItem>
