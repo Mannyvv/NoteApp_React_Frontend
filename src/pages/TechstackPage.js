@@ -55,7 +55,7 @@ const TechstackPage = () => {
 
 
       <div content class="row justify-content-center">
-        <div class="col">
+        <div class="col ">
           <img className="info-graphic mx-auto" src="https://i.ibb.co/HpwCbDJ/infographic.png" alt="infographic"/>
         </div>
       </div>

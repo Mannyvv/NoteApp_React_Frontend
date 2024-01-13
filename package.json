@@ -4,6 +4,8 @@
   "homepage": "https://mannyvv.github.io",
   "private": true,
   "dependencies": {
+    "@fontsource-variable/caveat": "^5.0.16",
+    "@fontsource-variable/source-code-pro": "^5.0.17",
     "@reduxjs/toolkit": "^2.0.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

@@ -31,7 +31,7 @@ const NotesGrid = ({ newNoteAdded,notes, handleNoteclick, deleteNote }) => {
             <button className='close' onClick={(event) => deleteNote(event, note)}><p className='close-text'>Delete</p></button>
           </div>
           <h2>{note.title}</h2>
-          <p>{note.content}</p>
+          <p className='note-text'>{note.content}</p>
         </div>
       ))}
     </div>

@@ -9,8 +9,8 @@ import 'bootstrap-social/bootstrap-social.css';
 import 'font-awesome/css/font-awesome.css';
 import "./App.css";
 
-// import '@fontsource-variable/source-code-pro';
-// import '@fontsource-variable/caveat';
+import '@fontsource-variable/source-code-pro';
+import '@fontsource-variable/caveat';
 
 
 

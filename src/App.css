@@ -89,11 +89,11 @@ body {
 
 h2 {
   margin: 0;
-  /* font-family: "Source Code Pro Variable", sans-serif; */
+  font-family: "Source Code Pro Variable", sans-serif;
   font-weight: 500;
 }
 
-p {
+.note-text {
   white-space: pre-wrap;
   overflow-wrap: break-word;
   font-family: "Caveat Variable", sans-serif;
@@ -209,7 +209,7 @@ input,
   margin-bottom: 2em;
   background-color: rgb(25, 149, 171);
   box-shadow: 0px 5px 5px 2px #9c9c9c;
-  /* font-family: "Source Code Pro Variable", sans-serif; */
+  font-family: "Source Code Pro Variable", sans-serif;
   font-size: 17px;
 }
 
@@ -268,7 +268,7 @@ input,
 
 .info-graphic{
   margin-top: 30px;
-  width: 500px;
+  max-width: 500px;
   
 
 } 
