@@ -47,15 +47,21 @@ const TechstackPage = () => {
           </p>
         </div>
       </div>
+      <div class="row">
+
+      </div>
       {/* <div class="row">dfdf</div> */}
       <hr class="bg-dark"></hr>
+
+
       <div content class="row justify-content-center">
-        <div class="col justify-content-center">
-          {/* <img alt="dead" class="info-graphic mx-auto d-block" src={infographic}></img> */}
+        <div class="col">
+          <img className="info-graphic mx-auto" src="https://i.ibb.co/HpwCbDJ/infographic.png" alt="infographic"/>
         </div>
       </div>
+
     </div>
   );
-} 
+}
 
 export default TechstackPage;

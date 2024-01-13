@@ -41,15 +41,7 @@ const Header = () => {
                 <i className="fa fa-home fa-lg" /> Home
               </NavLink>
             </NavItem>
-            {/* <NavItem>
-              <NavLink
-                className="nav-link"
-                style={{ color: "white" }}
-                href="https://github.com/Mannyvv/NoteApp_React/blob/main/src/App.js"
-              >
-                <i className="fa fa-github fa-lg" /> GitHub Code
-              </NavLink>
-            </NavItem> */}
+            
             <UncontrolledDropdown nav inNavbar style={{ color: "white" }}>
               <DropdownToggle nav caret style={{ color: "white" }}>
                 <i className="fa fa-github fa-lg" /> GitHub Code
