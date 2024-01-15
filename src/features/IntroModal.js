@@ -19,10 +19,13 @@ const IntroModal = () => {
   }, []);
 
   return (
-    <Modal isOpen={modal} toggle={() => setModal(!modal)}>
-      <ModalHeader>Welcome</ModalHeader>
+    <Modal isOpen={modal} toggle={() => setModal(!modal)} >
+      <ModalHeader>Welcome!</ModalHeader>
       <ModalBody>
-        Thank you for taking the time to visit and check out my project.
+        <p>Thank you for taking the time to visit and check out my project.</p>
+        <i><b>Remember:</b></i> "Read a Note, Leave a Note"
+
+
       </ModalBody>
       <ModalFooter>
         <Button onClick={() => setModal(!modal)}>Let's Go!</Button>

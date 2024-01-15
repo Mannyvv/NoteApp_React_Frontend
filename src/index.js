@@ -11,6 +11,9 @@ import "./App.css";
 
 import '@fontsource-variable/source-code-pro';
 import '@fontsource-variable/caveat';
+import { API_URL } from './utils/API';
+
+
 
 
 
@@ -18,6 +21,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 //Keeps Heroku container awake
+setInterval(() => {
+  fetch(API_URL);
+  console.log("it worked")
+}, 25 * 60 * 1000); // every 25 minutes
+
 
 
 
