@@ -13,4 +13,17 @@ export const fetchNotes = async (setNotes) => {
 }
 
 
+export const awakeHeroku = () => {
+  try {
+    setInterval( async() => {
+      const response = await fetch(API_URL);
+      const notes = await response.json()
+      console.log("it worked", notes)
+    }, 1 * 60 * 1000); // every 25 minutes
+    
+  } catch (error) {
+    console.log(error)
+  }
+}
+
 

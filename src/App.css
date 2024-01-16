@@ -223,6 +223,15 @@ input,
   background-color: rgb(25, 149, 171);
 }
 
+.modalHeader {
+  background-color: rgb(64, 154, 184);
+
+}
+
+.modalFooter {
+  background-color: rgb(64, 154, 184);
+}
+
 .btn {
   margin: 5px;
 }
@@ -231,7 +240,7 @@ input,
   color: rgb(106, 106, 106);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
+ 
 .container {
   /* background-color: #340c0c; */
   padding-top: 5px;
@@ -272,5 +281,23 @@ input,
   
 
 } 
+
+
+.tour-highlight {
+  box-shadow: 0px 0px 15px 15px rgb(64, 154, 184)
+}
+
+.tour-content {
+  background-color: rgb(64, 154, 184);
+  color: white;
+  
+}
+
+
+
+.shepherd-element .shepherd-content {
+  background: rgb(64, 154, 184);
+
+}
 
 

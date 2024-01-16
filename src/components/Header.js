@@ -14,7 +14,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText,
+
 } from 'reactstrap';
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/images/logo.png"

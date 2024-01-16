@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
-import { FormGroup, Form, Input,Button } from "reactstrap";
-import { ToastContainer} from "react-toastify";
+import { FormGroup, Form, Input, Button } from "reactstrap";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { notify } from "../features/Toast";
 import { fetchNotes } from "../features/CRUD.js";
 import { API_URL } from "../utils/API";
+
+
 
 
 import React from "react";
@@ -17,6 +19,9 @@ const NoteApp = () => {
   const [selectedNote, setSelectedNote] = useState(null);
   const [newNoteAdded, setNewNoteAdded] = useState(false)
 
+
+ 
+
   //scrolls to latest note entered
   function scrollToTop() {
     window.scrollTo({
@@ -27,7 +32,7 @@ const NoteApp = () => {
 
   //Limits note to 200 characters
   if (content.length > 200) {
-    setContent(content.substring(0, 250));
+    setContent(content.substring(0, 200));
   }
 
   //Runs once on render to obtain ALL notes from server
@@ -127,11 +132,12 @@ const NoteApp = () => {
 
       setNotes(updateNoteList);
       setSelectedNote(null);
-    } catch (error) {}
+    } catch (error) { }
   };
 
   return (
     <>
+      
       <Form
         className="note-form2 d-flex"
         onSubmit={selectedNote ? handleUpdateNote : handleNewNote}
@@ -171,6 +177,7 @@ const NoteApp = () => {
             </>
           ) : (
             <Button
+              id="postIt"
               type="submit"
               style={{ marginLeft: "0px", marginTop: "10px" }}
               block
@@ -200,7 +207,7 @@ const NoteApp = () => {
         <div className="note-form"></div>
 
         <NotesGrid
-          newNoteAdded = {newNoteAdded}
+          newNoteAdded={newNoteAdded}
           notes={notes}
           handleNoteclick={handleNoteclick}
           deleteNote={deleteNote}

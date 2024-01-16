@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import anime from 'animejs';
 
 const NotesGrid = ({ newNoteAdded,notes, handleNoteclick, deleteNote }) => {
@@ -16,7 +16,7 @@ const NotesGrid = ({ newNoteAdded,notes, handleNoteclick, deleteNote }) => {
       });
     }
  
-    // Set initialRender to false after the first render
+    
   }, [newNoteAdded]);
 
   return (
@@ -28,7 +28,7 @@ const NotesGrid = ({ newNoteAdded,notes, handleNoteclick, deleteNote }) => {
           key={note.id}
         >
           <div className="notes-header">
-            <button className='close' onClick={(event) => deleteNote(event, note)}><p className='close-text'>Delete</p></button>
+            <button id='deleteButton' className='close' onClick={(event) => deleteNote(event, note)}><p className='close-text'>Delete</p></button>
           </div>
           <h2>{note.title}</h2>
           <p className='note-text'>{note.content}</p>
