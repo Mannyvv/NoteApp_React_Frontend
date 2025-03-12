@@ -10,7 +10,7 @@ export const fetchNotes = async (setNotes) => {
     } catch (error) {
       console.log(error);
     } 
-}
+} 
 
 
 export const awakeHeroku = () => {

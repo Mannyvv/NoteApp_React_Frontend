@@ -16,7 +16,7 @@ export const steps = [
                 classes: 'shepherd-button-secondary',
                 text: 'Next',
                 type: 'next'
-            }
+            } 
         ]
     },
     {
